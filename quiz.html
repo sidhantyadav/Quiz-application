@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Questions</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="quiz">
+            <div class="quiz_body">
+                <h2 class="question">Q1. What is the full  ?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="ans1" class="answer" onclick="showNextButton()">
+                        <label for="ans1" id="opt1"></label>   
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="ans2" class="answer" onclick="showNextButton()">
+                        <label for="ans2" id="opt2">ff</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="ans3" class="answer" onclick="showNextButton()">
+                        <label for="ans3" id="opt3">ff</label> 
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="ans4" class="answer" onclick="showNextButton()">
+                        <label for="ans4" id="opt4">ff</label>
+                    </li>
+                </ul>
+                <div class="button_gp">
+                    <button id="next">Next</button>
+                    <button id="previous">Previous</button>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+            <div class="end">
+                <h2 class="end_header">Thank you . Your test is completed.</h2>
+                <div class="finalscore"></div>
+                <div class="endbutton">
+                     <button class="startagain">Go to front page</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/js/quiz.js"></script>
+</body>
+</html>
